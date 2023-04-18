@@ -1,0 +1,44 @@
+.filter {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 2%;
+}
+.filter span {
+    font-weight: bold;
+    color: black;
+    font-size: 12px;
+}
+.filter > button {
+    height: 100%;
+    padding: 15px 15px 15px 0px;
+    border-radius: 20px;
+    border: 1px #F2F2F2 solid;
+    border-left: 0px;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color:transparent;
+    display: flex;
+    align-items:center;
+    transition: 0.2s all ease-out;
+}
+.filter .button_icon {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 14px;
+}
+.filter > button:hover {
+    color: #0065FC;
+    box-shadow:inset -200px 0 0 0 #DEEBFF;
+    border: 2px #DEEBFF solid;
+    font-size: 14px;
+    border: 1px #0065FC solid;
+}
+.filter > button:hover > .button_icon {
+    background-color: transparent;
+    font-size: 18px;
+}
