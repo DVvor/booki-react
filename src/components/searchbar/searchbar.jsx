@@ -10,6 +10,7 @@ function searchbar() {
                 <input className='search_input' type="search" placeholder="Marseille, France" />
                 <button>Rechercher</button>
             </div>
+            <div>test</div>
         </>
     )
   }
