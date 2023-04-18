@@ -1,0 +1,12 @@
+.booki_title {
+  font-size: 18px;
+  color: black;
+  width: 100%;
+  margin: 5px 0px;
+}
+.booki_subtitle {
+  width: 100%;
+  margin: 5px 0px;
+  font-size: 11px;
+  color: grey;
+}

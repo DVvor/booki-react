@@ -1,0 +1,56 @@
+/* header start */ 
+.header {
+  display: flex;
+  height: 70px;
+  width: 100%;
+}    
+.logo-header {
+  display: flex;
+  align-items: center;
+}
+header img {
+  width: 40%;
+  padding-left: 15%;
+}
+.menu {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  font-size: 11px;
+  color: grey;
+}
+
+.category:hover {
+  color: #0065FC;
+  border: #0065FC;
+  border-top: 1px #0065FC solid ;
+  font-weight: 500;
+}
+
+/* .category > a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+} */
+ 
+
+/* a:link { 
+  text-decoration: none;
+  color: grey;
+} 
+a:hover {
+  color: #0065FC;
+} */
+
+
+/* header end */ 

@@ -1,0 +1,22 @@
+/* footer start */
+.footer {
+    background-color: #F2F2F2;
+    font-size: 8pt;
+    display: flex;
+    padding: 2%;
+    background-color: #F2F2F2;;
+    }
+.footer_block_title {
+    font-size: 12px;
+    font-weight: bold;
+}
+.footer_block {
+    width: 33%;
+}
+.footer li, ul {
+    list-style-type: none;
+    padding: 0 0 5px 0px;
+    color:grey;
+    
+}
+/* footer end */
